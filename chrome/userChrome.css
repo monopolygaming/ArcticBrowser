@@ -1,0 +1,32 @@
+* {
+    font-family: monospace !important;
+}
+
+.tab-background, .tab-loading-burst {
+    border-radius: 10px 5px 10px 5px !important;
+}
+
+.tab-background[selected] {
+    background-image: linear-gradient(#333, #111) !important;
+}
+
+#TabsToolbar {
+    background-color: #000 !important;
+}
+
+#nav-bar {
+    background-image: linear-gradient(#111, #333) !important;
+}
+
+#urlbar > #urlbar-background {
+    outline: none !important;
+    border-radius: 10px 5px 10px 5px !important;
+}
+
+menupopup {
+    background-color: #000 !important;
+}
+
+.tab-icon-image[src="chrome://branding/content/icon32.png"] {
+    content: url("assets/icon.png") !important;
+}

@@ -1,0 +1,100 @@
+@-moz-document url("about:home"), url("about:newtab") {
+    body {
+        background-color: black !important;
+        font-family: monospace !important;
+    }
+
+    .search-wrapper .search-handoff-button {
+        border-radius: 15px 5px 15px 5px !important;
+        background-color: #111 !important;
+    }
+
+    .logo {
+        background-image: url("assets/no-wordmark.png") !important;
+        width: 100px !important;
+        height: 100px !important;
+        background-size: 100% !important;
+    }
+
+    .wordmark {
+        background-image: url("assets/wordmark.png") !important;
+        background-repeat: no-repeat !important;
+        background-size: 100% !important;
+        width: 400px !important;
+        margin-inline-start: 5px !important;
+    }
+}
+
+@-moz-document url("about:preferences") {
+    body {
+        background-color: black !important;
+        font-family: monospace !important;
+    }
+
+    a {
+        color: white !important;
+    }
+
+    a:hover {
+        color: grey !important;
+    }
+
+    .sticky-container, #searchInput {
+        background-color: black !important;
+    }
+
+    #categories > .category[selected] {
+        color: white !important;
+        border-color: white !important;
+    }
+}
+
+@-moz-document url("about:addons") {
+    body {
+        background-color: black !important;
+        font-family: monospace !important;
+    }
+
+    .main-search, .main-heading, .sticky-container {
+        background-color: black !important;
+    }
+
+    #categories > .category[selected] {
+        color: white !important;
+        border-color: white !important;
+    }
+
+    search-textbox {
+        background-color: black !important;
+    }
+
+    .card {
+        background-color: black !important;
+    }
+
+    a {
+        color: white !important;
+    }
+
+    a:hover {
+        color: grey !important;
+    }
+
+    .primary {
+        background-color: white !important;
+        color: black !important;
+        transition: 0.2s ease filter;
+    }
+
+    .primary:hover {
+        filter: brightness(80%) !important;
+    }
+}
+
+@-moz-document url-prefix("https://addons.mozilla.org") {
+    .Header-title {
+        background-image: url("assets/browser-store.png") !important;
+	    background-size: 376px 64px !important;
+	    width: 376px !important;
+    }
+}
