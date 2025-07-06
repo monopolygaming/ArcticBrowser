@@ -97,4 +97,8 @@
 	    background-size: 376px 64px !important;
 	    width: 376px !important;
     }
+
+    .Header, .HeroRecommendation-color-ink-80-color-green-70 {
+        background-color: #000;
+    }
 }
