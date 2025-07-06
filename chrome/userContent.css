@@ -99,6 +99,6 @@
     }
 
     .Header, .HeroRecommendation-color-ink-80-color-green-70 {
-        background-color: #000;
+        background-color: #000 !important;
     }
 }
