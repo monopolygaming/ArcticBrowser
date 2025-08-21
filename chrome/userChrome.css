@@ -1,5 +1,9 @@
 * {
-    font-family: monospace !important;
+    font-family: monospace;
+}
+
+.titlebar-buttonbox-container{
+    font: optional;
 }
 
 .tab-background, .tab-loading-burst {
